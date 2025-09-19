@@ -3,9 +3,9 @@ package collector
 import (
 	"strings"
 
+	"github.com/mrobbert/go_pbspro/qstat"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/log"
-	"github.com/paratera/go_pbspro/qstat"
 )
 
 func init() {
